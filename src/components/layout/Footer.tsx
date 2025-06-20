@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Building your vision into reality with over 20 years of professional construction experience. 
+              Building your vision into reality with over 20 years of professional construction experience.
               Licensed, insured, and committed to excellence.
             </p>
             <div className="flex space-x-4">
@@ -93,13 +93,32 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
-              © 2024 BuildCraft Construction. All rights reserved.
-            </p>
+            <div>
+              <p className="text-gray-400 text-sm">
+                © 2024 BuildCraft Construction. All rights reserved.
+              </p>
+              <p className="text-gray-500 text-xs mt-1">
+                Developed by{" "}
+                <a
+                  href="https://shafiq-webdev.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-orange-400 hover:underline"
+                >
+                  ShafiqWebDev
+                </a>
+              </p>
+            </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Sitemap</a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+                Privacy Policy
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+                Terms of Service
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+                Sitemap
+              </a>
             </div>
           </div>
         </div>
